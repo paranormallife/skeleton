@@ -1,0 +1,51 @@
+/*
+Theme Name: ASW Template
+Theme URI:
+Author: Elliot Toman
+Author URI: http://asubtleweb.com
+Description: 
+Version: 1.0
+License: 
+License URI: 
+Tags: 
+Text Domain: 
+*/
+
+@import url('assets/fonts.css');
+
+* { margin: 0px; padding: 0px; }
+
+body, html { height: 100%; }
+
+body { font: 100% sans-serif; color: black; margin: 0px; }
+
+
+.video-container {
+    float: none; clear: both;
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* MEDIUM LAYOUT */
+@media screen and (min-width: ---px) {
+	
+}
+
+
+
+/* LARGE LAYOUT */
+@media screen and (min-width: ---px) {
+	
+}
